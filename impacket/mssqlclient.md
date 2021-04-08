@@ -91,13 +91,13 @@ C:\opt\htb\intranet\impacket\examples> python3 mssqlclient.py ARCHETYPE/sql_svc[
 
 如果不填写`[:password]`字段的话，交互时会提示你输入，登录成功后，得到一个sql shell。
 
-![image-20210408175314123](https://gitee.com/ethustdout/pics/raw/master/uPic/image-20210408175314123.png)
+![image-20210408175314123](https://gitee.com/ethustdout/pics/raw/master/uPic/image-20210408175314123-20210408202635914.png)
 
 #### 小功能
 
 它内嵌了一些小功能，使用help命令查看。
 
-![image-20210408175354110](https://gitee.com/ethustdout/pics/raw/master/uPic/image-20210408175354110.png)
+![image-20210408175354110](https://gitee.com/ethustdout/pics/raw/master/uPic/image-20210408175354110-20210408202636154.png)
 
 -   `lcd (path)`： 切换本地目录（也就是主机kali的目录），在本地执行。
 
@@ -107,13 +107,13 @@ C:\opt\htb\intranet\impacket\examples> python3 mssqlclient.py ARCHETYPE/sql_svc[
 
     出现这个结果代表以及打开了
 
-    ![image-20210408181153909](https://gitee.com/ethustdout/pics/raw/master/uPic/image-20210408181153909.png)
+    ![image-20210408181153909](https://gitee.com/ethustdout/pics/raw/master/uPic/image-20210408181153909-20210408202636308.png)
 
 -   `disable_xp_cmdshell`：关闭`xp_cmdshell`。
 
 -   `xp_cmdshell (cmd)`  ：执行命令。
 
-    ![image-20210408181216647](https://gitee.com/ethustdout/pics/raw/master/uPic/image-20210408181216647.png)
+    ![image-20210408181216647](https://gitee.com/ethustdout/pics/raw/master/uPic/image-20210408181216647-20210408202636520.png)
 
 -   `sp_start_job`：使用`sql server`的身份执行命令。（没有回显）
 
