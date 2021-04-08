@@ -124,3 +124,4 @@ C:\opt\htb\intranet\impacket\examples> python3 mssqlclient.py ARCHETYPE/sql_svc[
 ## 补充说明
 
 mssql的两种认证方式，以及提权（在写了在写了——新建文件夹）
+
