@@ -62,7 +62,7 @@ authentication:
 -   <font color='red'>procdump + mimikatz</font>。
 -   键盘监听器（钓鱼）。
 
-#### 小栗子
+### 小栗子
 
 假设得到了可以登录sql server的用户名和密码，现在需要登录到mssql中去，就可以使用`mssqlclient.py`工具。
 
@@ -93,7 +93,7 @@ C:\opt\htb\intranet\impacket\examples> python3 mssqlclient.py ARCHETYPE/sql_svc[
 
 ![image-20210408175314123](https://gitee.com/ethustdout/pics/raw/master/uPic/image-20210408175314123-20210408204010491.png)
 
-#### 小功能
+### 小功能
 
 它内嵌了一些小功能，使用help命令查看。
 
