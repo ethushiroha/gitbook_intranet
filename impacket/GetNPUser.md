@@ -48,6 +48,8 @@ authentication:
 
 ## 原理
 
+对于Kerberos不太了解的师傅们，可以看看[我的博客](https://www.ethushiroha.com/windows_kerberos.html)。写的菜，请轻喷。
+
 在Kerberos的AS验证过程中有KDC验证A身份的过程，如果某个用户启用了`Do not require Kerberos preauthentication`（不需要kerberos预身份验证）选项，那么就会跳过这一步。
 
 这样一来，KDC就会直接把`TGT`和`A_password_hash(KDC_key, date-time)`作为AS_REP发送给A，A得到了`A_password_hash(session Key)`之后，通过暴力破解的方式，得到`A_password`。
@@ -59,6 +61,8 @@ authentication:
 -   对于没有开启`Do not require Kerberos preauthentication`的用户，会返回开启了`Do not require Kerberos preauthentication`的用户列表。
 
 -   对于开启了`Do not require Kerberos preauthentication`的用户，会获得他的TGT和hash加密后的session key。
+
+
 
 ### 小栗子
 
