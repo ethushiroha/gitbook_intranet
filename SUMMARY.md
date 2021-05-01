@@ -6,4 +6,5 @@
     * [lookupsid.py](impacket/lookupsid.md)
     * [GetNPUser.py](impacket/GetNPUser.md)
     * [smbclient.py](impacket/smbclient.md)
+    * [getTGT.py](impacket/getTGT.md)
 
